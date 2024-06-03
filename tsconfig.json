@@ -1,0 +1,31 @@
+// {
+//   "compilerOptions": {
+//     "target": "es2016" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+//     "module": "ES2015" /* Specify what module code is generated. */,
+//     "declaration": true /* Generate .d.ts files from TypeScript and JavaScript files in your project. */,
+//     "outDir": "dist" /* Specify an output folder for all emitted files. */,
+//     "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
+//     "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+//     "strict": true /* Enable all strict type-checking options. */,
+//     "skipLibCheck": true /* Skip type checking all .d.ts files. */
+//   }
+// }
+
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "declaration": true, // 导出类型声明文件
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "dist/src",
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "lib": ["ESNext", "DOM"]
+  },
+  // 打包产物中不包括
+  // "exclude": ["node_modules", "vite.config.ts"],
+  // 打包产物包括
+  "include": ["src"]
+}

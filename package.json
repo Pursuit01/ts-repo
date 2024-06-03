@@ -1,0 +1,24 @@
+{
+  "name": "shr-ts",
+  "version": "1.0.3",
+  "description": "",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "type": "module",
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [],
+  "types": "dist/index.d.ts",
+  "author": "hong <hisunhongri@gmail.com>",
+  "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.12",
+    "vite-plugin-dts": "^3.9.1"
+  }
+}
